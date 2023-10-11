@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    justify-content: flex-end; /* Alinea a la derecha */
+    align-items: center;
+    height: 300px;
+}
+
+.formulario {
+    background: #1D2D50;
+    width: 500px;
+    height: 300px;
+   border-radius: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: #B8D8EB;
+    padding: 20px;
+}
+
+iframe{
+    
+   border-radius: 20px;
+}
+
+.formu {
+    margin: 10px 0;
+}
+
+.nombreimp {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #1D2D50;
+    font-weight: normal;
+    pointer-events: none;
+}
+
+button {
+    background-color: #B8D8EB;
+    color: #1D2D50;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}

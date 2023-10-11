@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    padding: 25px;
+    background-color: #003865;
+}
+.logo {
+	width: 250px;
+	float: right;
+	padding: 17px;
+}
+
+footer {
+    padding: 18px;
+    background-color: #003865;
+    font-family: nunito;
+    color: white;
+    text-align: center;
+	position: relative; height: 10px; border: solid; bottom: 0; right: 0;  left: 0;
+	width: 100%;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 200px; 
+    background-color: #B9D9EB; 
+    border-radius: 20px;
+}
+
+li {
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    font-family: helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white; 
+    display: block; 
+    border-radius: 20px;
+}
+
+li:hover {
+    background-color: #B9D9EB;
+    border-radius: 20px;
+}
+
+ul ul {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #B9D9EB; 
+    width: 200px;
+    border-radius: 20px;
+	
+}
+
+li:hover ul {
+    display: block;
+}
+
+ul ul li:hover {
+    background-color: #003865;
+}
+
+/* Estilos del botón de menú */
+#menu-toggle {
+    display: block;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+/* Estilos del menú oculto por defecto */
+#menu {
+    display: none;
+}
+
+/* Estilos del menú desplegable */
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 20px;
+}
+
+#menu li {
+    margin: 0;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #003865;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+#menu a:hover {
+    color: #CCAF5B;
+}
+
+/* Estilos para mostrar el menú cuando el botón se hace clic */
+#menu-toggle:focus + #menu {
+    display: block;
+}
+
+img {
+    min-height: 10px;
+	max-height: 30px;
+	
+}
+
+/* Segundo conjunto de estilos */
+
+
+body{
+ background-image: url("../img/mano.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+    width: 100%;
+    
+}
+
+.general{
+	margin: auto;
+	margin-top: 50px;
+	width: 900px;
+	height: 800px; 
+	
+}
+
+.Parrafo{
+	width: 400px;
+	height: 200px;
+	float:right;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+	color: #1D2D50;
+}
+
+.container{
+	
+	width: 500px;
+	height: 500px;
+	float:left;
+}
+
+.formulario{
+	background: #1D2D50;
+	width: 500px;
+	height: 250px;
+	border-radius: 20px;
+	font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+	color: #B8D8EB;
+	align-content: center;
+	flex-direction: column; /* Para centrar verticalmente */
+    justify-content: center; /* Para centrar verticalmente */
+    align-items: center; /* Para centrar horizontalmente */
+	margin: 0 auto;
+	margin-top: 0 auto;
+}
+.formu{
+	
+	background: #B8D8EB;
+	width: 450px;
+	height: 200px;
+	border-radius: 20px;
+	font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+	color: #1D2D50;
+	
+	
+}
+
+.h1{
+	width:500px;
+	height: 200px;
+	color: #FFB259;
+	font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+
+.logo{
+    height: 12%;
+    width: 12%;
+    
+}
+.menu{
+    height: 4%;
+    width: 4%;
+    float: right;
+}
+	
+iframe {
+    
+    float: right;
+}
+	

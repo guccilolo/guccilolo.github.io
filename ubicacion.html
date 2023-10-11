@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/style%20ubi.css">
+    <title>Aladi-Ubicación</title>
+</head>
+<body>
+    <header>
+        <img src="img/Recurso 1.svg" alt="Aladi" class="logo">
+       <img id="menu-toggle" class="closed" src="img/Recurso 2.svg" alt="Botón de menú">
+        <nav id="menu" class="closed">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li>
+                <a href="#">Productos</a>
+               
+            </li>
+            <li>
+                <a href="Aladi%20contacto.html">Contactanos</a>
+               
+            </li>
+            <li>
+                <a href="historia.html"> Hitoria</a>
+               
+            </li>
+            <li>
+                <a href="ubicacion.html">Ubicacion</a>
+                
+            </li>
+        </ul>
+    </nav>
+	<script>
+    document.getElementById("menu-toggle").addEventListener("click", function() {
+            var menu = document.getElementById("menu");
+            if (menu.style.display === "none" || menu.style.display === "") {
+                menu.style.display = "block";
+                document.getElementById("menu-toggle").src = "img/Recurso 4.svg";
+            } else {
+                menu.style.display = "none";
+                document.getElementById("menu-toggle").src = "img/Recurso 2.svg";
+            }
+        });
+    </script>
+    </header>
+      <div class="contenedor">
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.047161333514!2d-89.14662852613766!3d13.71559349813321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6337a5ef22483b%3A0x3d1c6972ed305c45!2sPaseo%20Venecia!5e0!3m2!1ses-419!2ssv!4v1692822733139!5m2!1ses-419!2ssv" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="texto">
+            <p id="naranja">Nuestra Ubicación</p>
+            <p id="medio">Nos complace ofrecerle la posibilidad de visitar nuestras instalaciones. Para 
+                facilitar su llegada desde cualquier 
+                ubicación, le proporcionamos un enlace a Google Maps que le
+                permitirá acceder de manera sencilla a nuestra ubicación.</p>
+            <p id="celeste">¡Será un honor recibirle en 
+                nuestras instalaciones!</p>
+        </div>
+    </div>    
+</body>
+<footer>
+    Departamento de la libertad, Santa Tecla, El Salvador
+</footer>
+</html>

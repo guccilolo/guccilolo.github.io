@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    padding: 15px;
+    background-color: #003865;
+}
+.logo{
+    height: 12%;
+    width: 12%;
+}
+.menu{
+    height: 3%;
+    width: 3%;
+    float: right;
+    margin-top: 5px;
+}
+.img{
+    height: 500px;
+    width: 100%;
+    
+}
+.pastillas{
+    height: 550px;
+    width: 1310px;
+}
+.celeste{
+    background-color: #b9d9eb
+    height: 500px;
+    width: 100%;
+    margin: 100px;
+}
+.final{
+    background-color: #26940b;
+    height: 500px;
+    width: 100%;
+}
+footer{
+    padding: 15px;
+    background-color: #003865;
+    color: white;
+    text-align: center;
+}        

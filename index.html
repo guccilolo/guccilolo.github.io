@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="CSS/style%20inicio.css">
+    <meta charset="UTF-8">  
+    <title>Aladi-Inicio</title>
+</head>
+<body>
+  <header>
+        <img src="img/Recurso 1.svg" alt="Aladi" class="logo">
+       <img id="menu-toggle" class="closed" src="img/Recurso 2.svg" alt="Botón de menú">
+        <nav id="menu" class="closed">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li>
+                <a href="#">Productos</a>
+               
+            </li>
+            <li>
+                <a href="Aladi%20contacto.html">Contactanos</a>
+               
+            </li>
+            <li>
+                <a href="historia.html"> Hitoria</a>
+               
+            </li>
+            <li>
+                <a href="ubicacion.html">Ubicacion</a>
+                
+            </li>
+        </ul>
+    </nav>
+	<script>
+    document.getElementById("menu-toggle").addEventListener("click", function() {
+            var menu = document.getElementById("menu");
+            if (menu.style.display === "none" || menu.style.display === "") {
+                menu.style.display = "block";
+                document.getElementById("menu-toggle").src = "img/Recurso 4.svg";
+            } else {
+                menu.style.display = "none";
+                document.getElementById("menu-toggle").src = "img/Recurso 2.svg";
+            }
+        });
+    </script>
+    </header>
+    
+    <div >
+         <h1>Conectando Salud,
+Distribuyendo Cuidado:
+Aladi, Tu Socio en
+Medicamentos</h1>
+    </div>
+    <div class="celeste">
+        <br>
+        <h2>Bienvenidos a Aladi: Tu Socio en Distribución Farmacéutica</h2>
+        
+        <div class="parrafo1">
+        <p>En Aladi, creemos en hacer que el acceso a medicamentos esenciales sea más fácil y eficiente para las farmacias comunitarias y de barrio. Con una pasión compartida por el cuidado de la salud, nos enorgullece ser un socio confiable que brinda soluciones de distribución farmacéutica adaptadas a las necesidades únicas de las farmacias independientes.</p>
+        </div>
+        
+		
+        <img src="IMG/img1.jpg" alt="img1" class="funo">
+       
+ </div>
+    <div class="final">
+        <br>
+        <h3>Póngase en contacto con nosotros hoy</h3>
+        
+        <div class="parrafo3">
+        <p>Llamanos: 788-9075</p>
+        </div>
+        
+        <img src="IMG/Recurso 6.svg" alt="img2" class="fdos">
+		
+    </body>
+    <footer>
+        Departamento de la libertad, Santa Tecla, El Salvador
+    </footer>
+</html>

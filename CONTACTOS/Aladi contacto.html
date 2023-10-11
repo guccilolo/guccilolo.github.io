@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Aladi Contacto</title>
+	
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<!-- Enlace al archivo de estilos externo -->
+
+<body>
+     <header>
+        <img src="img/Recurso 1.svg" alt="Aladi" class="logo">
+       <img id="menu-toggle" class="closed" src="img/Recurso 2.svg" alt="Botón de menú">
+    <nav id="menu" class="closed">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li>
+                <a href="#">Productos</a>
+               
+            </li>
+            <li>
+                <a href="#">Contactanos</a>
+               
+            </li>
+            <li>
+                <a href="#"> Hitoria</a>
+               
+            </li>
+            <li>
+                <a href="#">Ubicacion</a>
+                
+            </li>
+        </ul>
+    </nav>
+	<script>
+    document.getElementById("menu-toggle").addEventListener("click", function() {
+            var menu = document.getElementById("menu");
+            if (menu.style.display === "none" || menu.style.display === "") {
+                menu.style.display = "block";
+                document.getElementById("menu-toggle").src = "img/Recurso 4.svg";
+            } else {
+                menu.style.display = "none";
+                document.getElementById("menu-toggle").src = "img/Recurso 2.svg";
+            }
+        });
+    </script>
+    </header>
+<div class="general">
+	
+	
+	
+	 
+
+	
+	<div class="Parrafo"><p>¡Bienvenidos a la sección de Contacto de Aladi! Aquí, encontrarás información esencial para cualquier consulta que tengas sobre nuestros productos farmacéuticos. Si necesitas asistencia o deseas conocer más sobre nuestros productos, estamos a tu disposición. Puedes contactarnos a través de los detalles proporcionados abajo. Tu salud es nuestra prioridad, y estamos aquí para ayudarte en todo momento. ¡Gracias por confiar en Aladi!</p></div>
+	
+	
+
+    <div class="container">
+		
+	<div class="h1">
+        <h1>Contáctanos</h1>
+    </div>
+		
+	<iframe src="formulario.html" width="600" height="600"></iframe>
+        
+	</div>
+    </div>
+ </body>
+		<footer>Departamento de la libertad, Santa Tecla, El Salvador</footer>
+</html>
+
+
